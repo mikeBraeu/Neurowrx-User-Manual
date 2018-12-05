@@ -148,6 +148,14 @@ Other than the photo, your Neurowrx profile contains a changeable public Name fi
 One is only expected to post the url of the profile in question, the form of which varies from service to service.  If you are unsure what the url to your profile is, consult the documentation for that particular service. 
 \end{flushleft}
 
+\subsection{Users}
+\subsubsection{Friendships} \label{Friendships}
+\subsubsection{Followers}
+\subsubsection{Private Messages}
+\subsubsection{Public Messages}
+\subsubsection{Mentions}
+
+
 
 \subsection{Groups}
 \begin{flushleft}
@@ -155,7 +163,7 @@ Most of the activity on this website occurs within the many groups that members 
 \end{flushleft}
 
 \begin{flushleft}
-The other is located in the menu that arises from hovering the mouse over your profile picture. This section only lists groups that you are currently a member of.  It is also where you can accept invitations to groups that have been extended to you by their administrators. 
+The other is located in the menu that arises from hovering the mouse over your profile picture. This section only lists groups that you are currently a member of.  It is also where you can accept invitations to groups that have been extended to you. 
 \end{flushleft}
 
 \begin{figure}[h]
@@ -185,7 +193,7 @@ When a request to join a particular group has been sent, by clicking on the send
 \end{figure}
 
 \begin{flushleft}
-One a forum moderator or administrator accepts your request, you will receive a notification that your membership has been accepted in your notifications panel. See figure \ref{youaremember}.
+Once an administrator accepts your request, you will receive a notification that your membership has been accepted in your notifications panel. See figure \ref{youaremember}.
 \end{flushleft}
 
 \begin{figure}[h]
@@ -196,7 +204,7 @@ One a forum moderator or administrator accepts your request, you will receive a 
 \end{figure}
 
 \begin{flushleft}
-The other way to end up a member of a group is for a current member who is your friend (see section \ref{Friendships}) to extend you an invitation, and for you to accept it.  When one of your friends sends you an invitation, it will appear in your notification panel.  You navigate to the page where an invitation can be accepted, you can either click the notification in the notification panel, or navigate to you personal groups page through the dropdown menu (see the right side of figure \ref{groupmenus}). 
+The other way to end up a member of a group is for a current member who is your friend <<check this>> (see section \ref{Friendships}) to extend you an invitation, and for you to accept it.  When one of your friends sends you an invitation, it will appear in your notification panel.  You navigate to the page where an invitation can be accepted, you can either click the notification in the notification panel, or navigate to you personal groups page through the dropdown menu (see the right side of figure \ref{groupmenus}). 
 \end{flushleft}
 
 \begin{flushleft}
@@ -234,42 +242,143 @@ The third way is to go to the groups page itself, from either of the two previou
 \subsubsection{The forum associated with a group}
 \subsubsection{The documents associated with a group}
 
-\subsection{Friendships} \label{Friendships}
+
 \subsection{Posts}
+In this posts section, describe commenting, liking replying and deleting.  you have two photos, monies and whatsnew
+
 \subsection{Messages}
 
 \section{Group Moderators}
-Group moderators have elevated access and responsibilities.  They approve memberships for the groups assigned to them, and have the ability to remove content posted by uses, as well as remove users from groups.  The rules governing these things are a matter of policy and not defined in this document.  The following only covers how these things are to be achieved in the application itself. 
+Group moderators have elevated access and responsibilities.  They have the ability to remove content posted by users.  The rules governing this are a matter of policy and not defined in this document.  The following only covers how these things are to be achieved in the application itself. 
 
-\subsection{Member Management}
+
+
+
+
+
+
+
+
+\section{Group Administrators}
+Group administrators have elevated access and responsibilities.  They approve memberships for the groups assigned to them, and have the ability to remove content posted by uses, as well as remove users from groups.  The rules governing these things are a matter of policy and not defined in this document.  The following only covers how these things are to be achieved in the application itself. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{images/groupmanage.jpg}
+    \caption{The group management link is visible to moderators or administrators}
+    \label{groupmanagelink}
+\end{figure}
+
+\subsection{Group Details}
+
 \begin{flushleft}
-Most of the membership management functions can be found in the manage section of a groups page, the link to which is only visible to either moderators or administrators.
+This page allows the administrator to change the groups name and description.  One can also choose to notify members of these changes via email if they are made.  Simply make the desired changes and click the green "save changes" link at the bottom.  See figure \ref{groupmanagelink}.
+\end{flushleft}
+
+\subsection{Group Settings}
+
+\begin{flushleft}
+This page allows the administrator to change the privacy settings of a group, as well and control the rules behind who can be invited to join.  By default, groups on this site are intended to be private, but not hidden or public.  If a groups status is changed to public, all of it's associated documents will become publicly visible. See figure \ref{groupsettings}.
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.33]{images/groupsettings.jpg}
+    \caption{Privacy and invitation settings}
+    \label{groupsettings}
+\end{figure}
+
+\subsection{Group Photo}
+
+\begin{flushleft}
+The group photo is the hexagonal picture that is displayed on the main groups page, among other places.  It can be changed by a group administrator by a similar process as the individual user profile pictures.  To change the group profile picture, click the green select file button, select the file on your local file system, and use the cropping to pick the square subsection of the image that you wish to use.  Once the crop image button is clicked, the change will be made.  Previous profile pictures are not kept anywhere, so the change cannot be undone easily unless the previous photo is manually saved.  See figure \ref{groupphoto}.
 \end{flushleft}
 
 \begin{figure}[h]
     \centering
-    \includegraphics{images/groupmanage.jpg}
-    \caption{The group management link is visible to moderators or adminstrators}
-    \label{groupmanagelink}
+    \subfloat{{\includegraphics[scale=0.2]{images/groupchangephoto.jpg}}}
+    \qquad
+    \subfloat{{\includegraphics[scale=0.15]{images/groupcropphoto.jpg}}}
+    \caption{The two stages of changing the group photo, uploading (left) and cropping (right)}
+    \label{groupphoto}
 \end{figure}
 
-\subsubsection{Join Requests}
+\subsection{Cover Image}
 
 \begin{flushleft}
-Join requests can be found in the requests submenu of the management section of a group. 
+The cover image for a group is the wide, thin image that is place below the top panel and underneath the title of all pages specific to a particular group.  In the example below (figure \ref{groupcoverimage}), it is the photograph of the road with an arrow.  
 \end{flushleft}
 
-\subsubsection{Removing Members}
-\subsubsection{Promoting Members}
-\subsection{Content Management}
-\subsubsection{Posts}
-\subsubsection{Documents}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.2]{images/groupcoverimage.jpg}
+    \caption{The cover image page. Note the camera and "x" at the top left of the photo}
+    \label{groupcoverimage}
+\end{figure}
+
+\begin{flushleft}
+As the text in the yellow box suggests, the resolution of the image is intended to be at least 1400x350 pixels.  The actual portion of the image that is displayed depends on the current window dimensions, with excess width or height being automatically cropped out.  Unlike the profile and group images, these do not ask you to manually crop them with the mouse.  However, just like the profile images and group image, previous images are not saved, so if one desires to merely test a new image, it is recommended that the current one be manually saved.  You are not obligated to use a cover image, and the current one can be deleted by clicking the green button at the bottom of the page. 
+\end{flushleft}
+
+\begin{flushleft}
+There is also a semi transparent camera and "x" in the top left corner of the cover image that is visible in administrator mode.  These two buttons also allow you to remove or change the cover image.
+\end{flushleft}
+
+\subsection{Members}
+\begin{flushleft}
+The members page of the group management function allows an administrator to promote, demote, remove or ban group members.  It does not enable you to accept requests, which is handled elsewhere.  Administrators or moderators cannot be removed or banned unless first demoted to ordinary members.  It is possible to demote one's self, and any administrator can remove the administrator status of any other administrator. 
+\end{flushleft}
+
+\begin{flushleft}
+Banning a member is similar to removing them, except that they cannot attempt to rejoin the group until they are unbanned.  They can only be unbanned by a site administrator on the wordpress dashboard.  The ban is specific to the group, and does not affect their status or abilities on the rest of the site.  
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{images/managemembers.jpg}
+    \caption{The member management page}
+    \label{managemembers}
+\end{figure}
+
+\begin{flushleft}
+
+All of the member management actions available with respect to a given user are listed beside their name on the list, and are determined by the rank of their membership (see figure \ref{managemembers}).  You will be asked to confirm any action that you take. 
+
+\end{flushleft}
+
+\subsection{Join Requests}
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/memrequest.jpg}
+    \caption{The join request page}
+    \label{memrequest}
+\end{figure}
+
+\begin{flushleft}
+Join requests can either be accepted or rejected as the administrator wishes.  If they are rejected they can be resent by the applicant.  They are accepted or rejected by clicking the corresponding button under the users profile picture in the join request list (see figure \ref{memrequest}).
+\end{flushleft}
 
 
+\subsection{Documents}
+\subsection{Forum}
+\subsection{Delete Group}
 
-\section{Administrators}
+\begin{flushleft}
+The administrator of a group can delete it at any time.  This can potentially result in the loss of valuable content, and cannot be undone from within the application.  It would require restoring the website from a backup, which might entail the loss of days worth of activity.  Not to be trifled with. 
+\end{flushleft}
+
+\section{Site Administrators}
+
+\begin{flushleft}
+Site administrators are given full access to the wordpress dashboard, and are able to make essentially arbitrary changed to the website.  They have the ability to manually add or remove any user, and any piece of contend, as well as add pages and functionality to the site.
+\end{flushleft}
+
+\begin{flushleft}
+The dashboard can be accessed from the dropdown menu under your profile picture if you are made a site administrator.  The use of the wordpress console is largely beyond the scope of this document.
+\end{flushleft}
+
 \bibliography{codes_impact}
 \bibliographystyle{plainnat}
 \end{document}
