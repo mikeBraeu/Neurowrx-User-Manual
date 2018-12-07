@@ -445,43 +445,270 @@ The third way is to go to the groups page itself, from either of the two previou
 \end{figure}
 
 \subsubsection{The groups activity feed}
-\subsubsection{The forum associated with a group}
+
+\begin{flushleft}
+Each group has an activity feed that is similar to the one associated with an individual user.  It aggregates automatically generated information associated with the group, and can also have items placed in it by the group members.  This can serve the purpose of enabling light informal banter, similar to twitter (see figure \ref{groupact}).  It is the default page that one sees when first clicking on a groups name (assuming that you are a member).  It can also be reached by clicking the home link from any of the other group pages. 
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/groupactivity.jpg}
+    \caption{A groups activity feed, note how the greeting is topic specific; just as the group is.}
+    \label{groupact}
+\end{figure}
+
+\begin{flushleft}
+The rest of the information about how a groups activity feed functions is contained in section \ref{Activity}.
+\end{flushleft}
+
+\subsubsection{The forum associated with a group} \label{groupforum}
+
+\begin{flushleft}
+A user is able to post in the forum associated with each group that they are a member of.  To view the forum, go to the main page of a group that you belong to.  There is a forum link right between the home and docs links.  (see figure \ref{forummain}).
+\end{flushleft}
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{images/forummain.jpg}
+    \caption{The main page for the business development forum}
+    \label{forummain}
+\end{figure}
+
+\begin{flushleft}
+The group forums are only visible and available to members of the group.  The rest of the functionality of the forums is described in section \ref{Forums}.
+\end{flushleft}
+
+
 \subsubsection{The documents associated with a group}
+
+\begin{flushleft}
+Each group has a documents section associated with it.  The documents are pieces of rich (formatted) text that are created by group administrators and can (potentially, if the creator chooses) be commented on and edited by group members.  They are accessed by clicking on the docs link on the group home page (see figure \ref{groupsettings}).
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{images/groupsdocs.jpg}
+    \caption{The document page for the job coaching group}
+    \label{groupsdocs}
+\end{figure}
+
+\begin{flushleft}
+If we click on the title of the document, we are brought to a page has tabs for reading, editing, and history viewing (see figure \ref{docpage}).  We also have the ability to comment on the document, as well as comment on other peoples comments, providing the document creator allows it. 
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/docpage.jpg}
+    \caption{The page of a the document "This document tells you how to make the money"}
+    \label{docpage}
+\end{figure}
+
+\begin{flushleft}
+If we add a couple lines to this document in the editing tab, we can see the changes in the documents history tab.  After the changes have been made, clicking the green "save" button at the bottom commits them.  Then clicking the "history" tab allows us to view the documents editing history (see figure \ref{edithistory}).
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \subfloat{{\includegraphics[scale=0.30]{images/docedit.jpg}}}
+    \qquad
+    \subfloat{{\includegraphics[scale=0.30]{images/dochist.jpg}}}
+    \caption{The editing and history windows.}
+    \label{edithistory}
+\end{figure}
+
+\begin{flushleft}
+As one can see on the history page, each edit event, as well as the user that performed it, is listed.  You can restore the document to any previous version by clicking the restore link and confirming your choice. 
+\end{flushleft}
+
 \subsubsection{Viewing the members of a group}
 
-\subsection{Forums}
 \begin{flushleft}
-A user is able to post in the forums associated with groups they are a member of, as well as others blah blah blah
-
-
+The members page of a group contains a profile picture of every member (which can only be viewed if you are a member, of course) contain a profile picture of every member, along with small buttons that enable you to add (or remove) people as friends or follow them. 
 \end{flushleft}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{images/groupmembers.jpg}
+    \caption{The members page.  Notice how the profile pictures are an instance of what was described in figure \ref{profilepics}}
+    \label{fig:my_label}
+\end{figure}
+
+\begin{flushleft}
+All of these profile pictures are also links to their user's page.  The function on that page described elsewhere can be accessed through them.
+\end{flushleft}
+
+\subsection{Forums} \label{Forums}
+The forums on the site provide an environment to have a more structured, involved and uncluttered conversation that the activity feeds.  They are intended to be organized around specific topics.  At the moment, the only forums on the site are the ones associated with each group.  Their pages can be accessed by the process described in section \ref{groupforum}. 
+
+
+\subsubsection{The main forum page and creating topics} \label{doggopost}
+\begin{flushleft}
+As you can see in figure \ref{forumpage}, there is already a post in the forum, with title "this is the topic title".  If we click on the title, it will take us to the post's content.  If we wanted to create a new topic, we could use the form at the bottom of the page to enter it's title and initial post, and then click the green submit button.  As the page tells us, we can use html attribute tags to enrich the content slightly.
+\end{flushleft}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{images/forummain.jpg}
+    \caption{The main page for the business development forum}
+    \label{forumpage}
+\end{figure}
+
+
+\begin{flushleft}
+For example, if we created a topic "How do I make the money?", with initial post "Is it ok that I am a dog?", and include our profile picture.  We would write the following (note the use of the html tag.  If you don't know html, pehaps look up tutorials on the specific tags listed in the box in figure \ref{forumpage}): 
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{images/newtopic.jpg}
+    \caption{The new topic as we enter it}
+    \label{newtopic1}
+\end{figure}
+
+\begin{flushleft}
+Which would result in this if posted:
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{images/viewnewpost.jpg}
+    \caption{The new topic as other people will see it, ready to be replied to}
+    \label{newtopic2}
+\end{figure}
+
+\subsubsection{Viewing and replying to existing topics}
+
+\begin{flushleft}
+If we saw the topic in the previous section on the main forum page (How do I make the money?) and wished to reply to it as another user (or even ourselves, as we can reply to our own posts), we would simply add the text (or whatever else, like pictures) into the reply section at the bottom of the viewing page, and click submit. 
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{images/nodoggo.jpg}
+    \caption{A user (a moderator in this case) replying to a topic}
+    \label{nodoggo}
+\end{figure}
+
 
 \subsection{Documents}
 
-\subsection{Settings}
+\subsection{Account Settings}
+\begin{flushleft}
+Each account has some user controllable account settings that can be accessed though the last link on the profile pic dropdown menu.  The different sections are as follows:
+\end{flushleft}
+
+
+\begin{itemize}
+    \item General:  Allows the change of the email address connected with the accound, as well as the password
+    \item Email: Contains a long list of toggles that control what kind of events generate notification emails
+    \item Profile Visibility: Controls whether or not other users can see your name and/or gender
+\end{itemize}
+
+\begin{flushleft}
+The first page (the general section) is the only one that wants for explanation.  On it, you are presented with a form with fields for your current password, email, a new password and a new password confirmation (see figure \ref{settings}).
+
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{images/settings.jpg}
+    \caption{The general settings form}
+    \label{settings}
+\end{figure}
+
+\begin{flushleft}
+To make any changes to this form, the correct account password must be entered into the top field.  Then whatever changed the user wishes to be made can be made to the other fields.  Once the form with the correct password and desired changes has been filled out, clicking the "save changes" button will do so. 
+\end{flushleft}
 
 
 
+\section{Group Moderators} \label{Moderators}
 
+\begin{flushleft}
+Group moderators have elevated access and responsibilities.  They have the ability to remove or alter content posted by users.  The rules governing this are a matter of policy and not defined in this document.  The following only covers how these things are to be achieved in the application itself. 
+\end{flushleft}
 
-\section{Group Moderators}
-Group moderators have elevated access and responsibilities.  They have the ability to remove content posted by users.  The rules governing this are a matter of policy and not defined in this document.  The following only covers how these things are to be achieved in the application itself. 
+\begin{flushleft}
+The additional functionality associated with moderation is accessed though additional links in the forum section.  If we are viewing a particular post, such as the one made in section \ref{doggopost}, these new links appear to the left of the reply button that ordinary users have access to (see figure \ref{modpowers}).  
+\end{flushleft}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/moderatorpostview.jpg}
+    \caption{The powers associated with moderation}
+    \label{modpowers}
+\end{figure}
 
+\begin{flushleft}
+We will go through these additional features in the following subsections. 
+\end{flushleft}
 
+\subsection{Editing Posts}
 
+\begin{flushleft}
+Upon clicking the edit button, a window appears that could be seen as an enhanced version of the posting window.  It not only allows you to change the content of the post itself to whatever you wish, but also to move it to other forums with the forums dropdown menu, make the topic sticky (so that it stays at the top of the list of topics), or change the status of the topic to closed, spam, trash or pending (this will be discussed later). 
+\end{flushleft}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.3]{images/editpost.jpg}
+    \caption{The post editing window}
+    \label{editpost}
+\end{figure}
+
+\begin{flushleft}
+ If you keep a log of the edit, the fact that the post has been edited will be made known to users who view the post.  If you provide a reason, it will be provided to users who view the post as well (see figure \ref{post edited}). If we add the line "watch me edit your post" and provide "I felt like it" as a reason, the result would look like this (see figure \ref{post edited}). 
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/postedited.jpg}
+    \caption{The post after it has been edited}
+    \label{post edited}
+\end{figure}
+
+\subsection{Closing Topics}
+
+\begin{flushleft}
+Closing topics prevents further replies from being added.  It can be done by clicking on the close link beside the post title in the main forum page, or by changing the topics status to closed in the post editing window.
+\end{flushleft}
+
+\subsection{Sticking Topics}
+\begin{flushleft}
+Stuck topics appear at the top of the list of topics, above all non stuck topics.  It is meant to ensure that everyone has to see them before moving on to other topics further down the list.  It can be engaged by the "stick" link on the main forum page next to the topic title, or with the "Topic Type" dropdown menu in the post editing page.
+\end{flushleft}
+
+\subsection{Merging Topics}
+\begin{flushleft}
+Two topics in the same forum can have all of their replies, subscribers and favouriters combined.  To do this, click the merge link on the main forum page next to the topic title that you wish to merge.  You will be asked to select another topic to merge with (in the same forum) from the dropdown menu and click "submit". 
+\end{flushleft}
+
+\begin{flushleft}
+Note: this process cannot be undone, and the topic that you select from the dropdown is the one that is subsumed into the other. 
+\end{flushleft}
+
+\subsection{Marking Topics as Spam}
+
+\begin{flushleft}
+Marking something as spam does not delete it, it just makes it invisible to non moderators.  It can be undone.  To spam, or unspam, a forum topic, view the post in the forum as a moderator and click the link that appears next to the post reply button.
+\end{flushleft}
 
 
 
 
 \section{Group Administrators}
-Group administrators have elevated access and responsibilities.  They approve memberships for the groups assigned to them, and have the ability to remove content posted by uses, as well as remove users from groups.  The rules governing these things are a matter of policy and not defined in this document.  The following only covers how these things are to be achieved in the application itself. 
+Group administrators have elevated access and responsibilities.  They have all of the abilities of a moderator, as discussed in section \ref{Moderators}, in addition to the ability to manage group membership.  The rules governing these things are a matter of policy and not defined in this document.  The following only covers how these things are to be achieved in the application itself. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.25]{images/groupmanage.jpg}
-    \caption{The group management link is visible to moderators or administrators}
+    \caption{The group management link is visible to group administrators}
     \label{groupmanagelink}
 \end{figure}
 
@@ -578,7 +805,54 @@ Join requests can either be accepted or rejected as the administrator wishes.  I
 
 
 \subsection{Documents}
+
+\begin{flushleft}
+At this time, only group administrators have the ability to create new documents.  To do this, go to the home page of a particular group, and then click the docs link at the top of the group's page (see figure \ref{adminsdocspage}).
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/docspage.jpg}
+    \caption{The documents page as a group admin sees it}
+    \label{adminsdocspage}
+\end{figure}
+
+\begin{flushleft}
+As you can see, there is a green "Create New Doc" button on the right available to administrators. If we click this, we are brought to the document creation form (see figure \ref{doccreationform}).  
+\end{flushleft}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/doccreationform.jpg}
+    \caption{The document creation form}
+    \label{doccreationform}
+\end{figure}
+
+\begin{flushleft}
+This form has many features.  In addition to being able to choose the title and create the (initial) content of the document in an MS word-like editor, you can attach relevant files.  Further down the form, you can choose which group the document will be associated with, which by default, is the group whos page you were on when you clicked the create document link.  
+\end{flushleft}
+
+\begin{flushleft}
+In the access section, you can set the read and edit access permissions of the document, as well as read and access permissions of the comments that can be made on the document. You can also view who controls the history of the document.  By default, these are all set so that all members of a given group can perform all of the above mentioned functions.  In practice, it is likely that you will often want to restrict edit permission to moderators or admins of a particular group.  You can change access permissions on a document at any time if you are an adminstrator for a group, regardless of whether or not you created the original document. 
+\end{flushleft}
+
+\begin{flushleft}
+There is also a section for adding tags to a doc to help people find it using the search bar at the top of the site (assuming they have the necessary privileges to view it).  Simply add or edit the comma separated list of words or phrases to assist in the categorization of this document (if you wish to do so).
+\end{flushleft}
+
+\begin{flushleft}
+Finally, the document parent function forces another document to be displayed at the bottom of the page whenever this document is viewed, and a link to the child to be displayed at the bottom of the page whenever the parent is viewed.  When a parent to a document is added, it's title is selected from a list of existing documents on the site.
+\end{flushleft}
+
+\begin{flushleft}
+Once the admin is satisfied with the contents of the form, clicking the save button will create the document. 
+\end{flushleft}
+
 \subsection{Forum}
+\begin{flushleft}
+In addition to the ordinary moderation powers described in section \ref{Moderators}, administrators have the power to instantly put any post they see in the trash.  Once there, the content can only be restored by a site administrator. The trash button appears next to the reply butten in the regular post view window.
+\end{flushleft}
+
 \subsection{Delete Group}
 
 \begin{flushleft}
